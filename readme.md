@@ -28,3 +28,6 @@
 
 > [!CAUTION]
 > If something in this `readme.md` is wrong, please open an issue from the top. 
+
+
+>Educational Purposes Only
