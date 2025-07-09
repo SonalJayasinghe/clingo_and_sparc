@@ -21,3 +21,10 @@
 # SPARC
 
 - `java -jar sparc.jar basic.sp`
+
+> [!NOTE]
+> If this repo is useful, Click on `⭐️ Star` (top right corner)
+
+
+> [!CAUTION]
+> If something in this `readme.md` is wrong, please open an issue from the top. 
