@@ -19,3 +19,5 @@
 
 
 # SPARC
+
+- `java -jar sparc.jar basic.sp`
