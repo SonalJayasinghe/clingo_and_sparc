@@ -1,5 +1,4 @@
-# Clingo
-
+# 1. Clingo
 | In Mathematics | In Clingo |
 | -------------- | --------- |
 | `or`           | `\|`      |
@@ -7,6 +6,7 @@
 | `not`          | `not`     |
 | `<-`           | `:-`      |
 
+## Notes
 - always use `.` at the end of each statement, otherwise it will throw an error.
 - save the text file into `.lp` file format.
 - for windows 11 make sure to check the file type before running. file type should be `.lp`.
@@ -18,7 +18,7 @@
 * Practicles July 8 - code1.lp to code7.lp
 
 
-# SPARC
+# 2. SPARC
 
 - `java -jar sparc.jar basic.sp`
 
