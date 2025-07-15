@@ -8,7 +8,7 @@
 
 ## Notes
 - always use `.` at the end of each statement, otherwise it will throw an error.
-- save the text file into `.lp` file format.
+- save the text file into `.lp` file format where the clingo.exe exists.
 - for windows 11 make sure to check the file type before running. file type should be `.lp`.
 - to run, go to the folder and open cmd or terminal where the clingo.exe exists. 
 - then type and enter `clingo 0 code1.lp`
@@ -16,6 +16,7 @@
 
 ## Code Log
 * Practicles July 8 - code1.lp to code7.lp
+* Practicles July 15 - code8.lp to ....
 
 
 # 2. SPARC
