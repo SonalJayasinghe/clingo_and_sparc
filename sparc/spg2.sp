@@ -16,3 +16,4 @@ r(X):-p(X).
 r(X):-q(X).
 
 % answer sets are {q(b), r(b), -s(a), r(a), q(a)}, {q(b), r(b), -s(a), r(a), p(a)}
+% java -jar sparc.jar spg2.sp     
