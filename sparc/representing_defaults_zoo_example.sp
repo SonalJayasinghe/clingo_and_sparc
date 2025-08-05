@@ -1,19 +1,18 @@
 sorts
-#animal = {helios, apollo}.
-#dname = d(#animal).
+#lion = {helios, apollo, zimba, sonal}.
+#dname = d(#lion).
 
 predicates
-baby(#animal).
-dangerous(#animal).
+baby(#lion).
+dangerous(#lion).
 ab(#dname).
-lion(#animal).
 
 rules
-lion(apollo).
-lion(helios).
-baby(helios).
-dangerous(X) :- lion(X), ab(d(X)), not -dangerous(X).
-ab(d(X)) :- not -baby(X).
--dangerous(X):- baby(X).
--baby(X):- not baby(X).
 
+baby(helios).
+baby(sonal).
+dangerous(X) :- not ab(d(X)), not -dangerous(X).
+ab(d(X)) :- not -baby(X).
+-dangerous(X) :- baby(X).
+
+-baby(X) :- not baby(X).
